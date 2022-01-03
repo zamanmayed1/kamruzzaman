@@ -41,6 +41,7 @@ p {
 .topsection {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+  border-bottom: 1px solid black;
 }
 .sec2 {
   width: 50%;
@@ -60,6 +61,7 @@ p {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+  border-bottom: 1px solid black;
 }
 .sec3 {
   width: 40%;
@@ -68,10 +70,13 @@ p {
   margin: auto;
   text-align: center;
   border-radius: 15px;
-  border-left: 8px solid blueviolet;
+  border-image: linear-gradient(blue, tomato);
+  border-left: 7px solid;
+  border-image-slice: 1;
 }
 
 .section3 {
   background-image: url(images/exp-bg.png);
   background-repeat: no-repeat;
+  border-bottom: 0.5 px solid black;
 }
