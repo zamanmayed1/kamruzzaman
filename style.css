@@ -7,10 +7,10 @@ body {
 h1 {
   font-size: 50px;
 }
-#kamruzzaman {
+.kamruzzaman {
   color: #ffa500;
 }
-section {
+.sectionflex {
   display: flex;
   margin-bottom: 100px;
 }
@@ -51,4 +51,8 @@ section {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.sec3 {
+  width: 50%;
+  padding-left: 5%;
 }
