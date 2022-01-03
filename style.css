@@ -1,0 +1,28 @@
+body {
+  font-family: "Shizuru", cursive;
+  font-family: "Staatliches", cursive;
+}
+h1 {
+  font-size: 50px;
+}
+#kamruzzaman {
+  color: #ffa500;
+}
+section {
+  display: flex;
+}
+
+.half-widht {
+  width: 50%;
+  padding-left: 5%;
+}
+.half-widht img {
+  width: 60%;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  background-color: #ffa500;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
